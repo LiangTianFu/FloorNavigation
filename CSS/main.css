@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFF0F5;
+	font-size: 12px;
+	line-height: 1.7em;
+	margin: 30px auto;
+}
+
+li {
+	list-style: none;
+}
+
+#content {
+	width: 990px;
+	margin: 0 auto;
+}
+
+#content .title {
+	display: block;
+	height: 60px;
+}
+
+#content h1 {
+	color: #ff0036;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#content #item1 {
+	padding-top: 10px;
+	margin-bottom: 20px;
+	border: 1px dotted #08b;
+}
+
+#content #item1 li {
+	display: inline;
+	margin-left: 8px;
+}
+
+#content .item {
+	margin-bottom: 20px;
+	border: 1px dotted #08b;
+}
+
+#content .item li {
+	display: inline;
+	margin-left: 4px;
+}
+
+#content #item1 {
+	background: #ffd2e0;
+	min-height: 180px;
+}
+
+#content #item1 li a img {
+	width: 315px;
+	height: 160px;
+	border: none;
+}
+
+#content .item li a img {
+	width: 157px;
+	height: 157px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+#content #item13 li a img {
+	width: 190px;
+	height: 190px;
+	border: none;
+}
+
+#menu {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: 505px;
+	width: 100px;
+	background: #ff2935;
+}
+
+#menu ul li {
+	height: 25px;
+	line-height: 25px;
+}
+
+#menu ul li a {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	width: 74px;
+	text-align: left;
+	text-decoration: none;
+	overflow: hidden;
+	text-overflow: ellipsis;/*文字溢出的部分隐藏并用省略号代替*/
+	white-space: nowrap;/*文本不自动换行*/
+}
+
+#menu ul li i {
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/location.png) center center no-repeat;
+	float: left;
+	margin: 6px 7px;
+}
+
+#menu ul li a:hover, #menu ul li a.current {
+	background-color: #666;
+}
